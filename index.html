@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Mono|Source+Code+Pro|Work+Sans" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/javascript/app.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Mono|Source+Code+Pro|Work+Sans" rel="stylesheet">
 
-	<meta charset="utf-8">
-	<title>TRIVIA GAME</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+<meta charset="utf-8">
+<title>GIPHY COLORS</title>
 </head>
 <body>
+	
+<div class="container">
+<div id="colors-view">
+</div>
+<br>
+<form id="color-form">
+<label for="color-input">ADD A COLOR</label>
+<input type="text" id="color-input">
+<input id="add-color" type="submit" value="submit">
+<br><br>
 
-	<div id="game">
-        <h1>☞☻☼⌚︎☺︎☿☀︎★✌︎☺︎☻<br>DR3AMS + SYMB0L$<br>TR!VIA GAME<br>☼☽☾☿〠☡∀∅∆∟∃⊗<br>⨯ʘ⅋☆⏀⎈⎊⌘⌁⌀⇱</h1>
-        <div class="wrapper">
-        <br>	
-        <div id= "timeleft"></div><br>
-        <div id= "questionblock"></div>
-        <div id= "answerblock"></div>
-        <button class ="btn btn-success" id ="start">Start Game</button><br>
-        <button class="btn btn-success" id="reset">Play Again?</button>
+</form>
+
+
+<div id ="GIFArea"> </div>
+</div>
       
 </body>
 </html>

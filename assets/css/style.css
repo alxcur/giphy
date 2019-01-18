@@ -8,7 +8,6 @@ body {
 p {
     font-family: Roboto Mono;
     font-size: 14px;
-    color: red;     
 }
 
 h1 {
@@ -18,52 +17,28 @@ h1 {
     color: black;   
 }
 
-#game {
-    text-align: center;
-    margin: 0 auto;
-    padding: 10px 100px 100px 100px;
-}
-
-.answerchoice {
-    font-family: Roboto Mono;
-    width: 60%;
-    color: black;
-    text-align: center;
-    margin: 10px auto;
-    font-size: 20px;
-    letter-spacing: 3px;
-    background-color: rgba(0, 156, 218, 0.3);
-}
-
 img {
   max-height: 200px;
   width: auto;
 }
 
-#answerblock {
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 25px;
+button, form {
+	margin: 5px;
 }
 
-#questionblock {
-    text-align: center;
-    font-family: Roboto;
-    font-size: 14px;
+.container .jumbotron, .container-fluid .jumbotron {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    background-color: white;
+    border: white;
     color: black;
-    font-weight: 700;
+    padding: 2px;
 }
 
-#reset {
-  visibility: visible;
+.item {
+	padding: 10px;
+	display: inline-block;
 }
-
-.wrapper {
-  margin: 20px auto;
-  padding: 10px 25px 25px 25px;
-  background-color: rgba(255, 255, 255, 0.534);
-  height: 450px;
-  width: 50%;
-  text-align: center;
-}
-
