@@ -1,13 +1,71 @@
 body {
-    background: url(../images/background3.jpg);
-    background-size: cover;
+    
     font-family: Roboto Mono;
-    font-size: 14px;
+    font-size: 12px;
+
+/* W3C */
+background: linear-gradient(top, #ff3232 0%,#fcf528 16%,#28fc28 32%,#28fcf8 50%,#272ef9 66%,#ff28fb 82%,#ff3232 100%);
+
+/* Firefox */
+background: -moz-linear-gradient(top, #ff3232 0%, #fcf528 16%, #28fc28 32%, #28fcf8 50%, #272ef9 66%, #ff28fb 82%, #ff3232 100%);
+
+/* Chrome,Safari4+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3232), color-stop(16%,#fcf528), color-stop(32%,#28fc28), color-stop(50%,#28fcf8), color-stop(66%,#272ef9), color-stop(82%,#ff28fb), color-stop(100%,#ff3232));
+
+/* Chrome10+,Safari5.1+ */
+background: -webkit-linear-gradient(top, #ff3232 0%,#fcf528 16%,#28fc28 32%,#28fcf8 50%,#272ef9 66%,#ff28fb 82%,#ff3232 100%);
+
+background-size: 1000%;
+-moz-background-size: 1000%;
+-webkit-background-size: 1000%;	
+
+/* W3C */
+animation-name: fun-time-awesome;
+animation-duration: 40s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-play-state: running;
+
+/* Firefox: */
+-moz-animation-name: fun-time-awesome;
+-moz-animation-duration: 40s;
+-moz-animation-timing-function: linear;
+-moz-animation-iteration-count: infinite;
+-moz-animation-direction: alternate;
+-moz-animation-play-state: running;
+
+/* Chrome, Safari */
+-webkit-animation-name: fun-time-awesome;
+-webkit-animation-duration: 40s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction: alternate;
+-webkit-animation-play-state: running;
+}
+
+/* W3C */
+@keyframes fun-time-awesome {
+0% {background-position: left top;}
+100% {background-position: left bottom;}
+}
+
+/* Firefox */
+@-moz-keyframes fun-time-awesome {
+0% {background-position: left top;}
+100% {background-position: left bottom;}
+}
+
+/* Chrome, Safari */
+@-webkit-keyframes fun-time-awesome {
+0% {background-position: left top;}
+100% {background-position: left bottom;}
 }
 
 p {
     font-family: Roboto Mono;
-    font-size: 14px;
+    font-size: 12px;
+    padding: 0px
 }
 
 h1 {
@@ -22,23 +80,46 @@ img {
   width: auto;
 }
 
-button, form {
-	margin: 5px;
+form {
+    margin: 5px;
+    font-family: Roboto Mono;
+    font-size: 11px;
+    letter-spacing: 3px; 
+    color: blue;
 }
 
-.container .jumbotron, .container-fluid .jumbotron {
+.container, .container-fluid {
 	padding-top: 2px;
 	padding-bottom: 2px;
 }
 
-button, html input[type=button], input[type=reset], input[type=submit] {
+button {
+    margin: 5px;
+    font-family: Work Sans;
+    font-size: 12px;
     background-color: white;
     border: white;
     color: black;
-    padding: 2px;
+    padding: 5px;
+}
+
+html input[type=button], input[type=reset], input[type=submit] {
+    background-color: blue;
+    border: white;
+    color: white;
+    font-family: Roboto Mono;
+    font-size: 11px;
+    letter-spacing: 3px; 
 }
 
 .item {
 	padding: 10px;
 	display: inline-block;
+}
+
+
+#GIFArea {
+    font-family: Roboto Mono;
+    font-size: 12px;
+    color: black;  
 }

@@ -89,7 +89,7 @@ var gifDiv = $('<div class="item">');
 var rating = results[i].rating;
 
 //creating an element to have the rating displayed
-var r = $('<p>').text();
+var r = $('<p>').text("rating: " + rating);
 
 //creating a image tag
 var gifImage = $('<img>');
