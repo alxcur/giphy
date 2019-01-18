@@ -1,0 +1,69 @@
+body {
+    background: url(../images/background3.jpg);
+    background-size: cover;
+    font-family: Roboto Mono;
+    font-size: 14px;
+}
+
+p {
+    font-family: Roboto Mono;
+    font-size: 14px;
+    color: red;     
+}
+
+h1 {
+    font-family: Roboto Mono;
+    font-size: 14px;
+    letter-spacing: 3px; 
+    color: black;   
+}
+
+#game {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 100px 100px 100px;
+}
+
+.answerchoice {
+    font-family: Roboto Mono;
+    width: 60%;
+    color: black;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 20px;
+    letter-spacing: 3px;
+    background-color: rgba(0, 156, 218, 0.3);
+}
+
+img {
+  max-height: 200px;
+  width: auto;
+}
+
+#answerblock {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+#questionblock {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+}
+
+#reset {
+  visibility: visible;
+}
+
+.wrapper {
+  margin: 20px auto;
+  padding: 10px 25px 25px 25px;
+  background-color: rgba(255, 255, 255, 0.534);
+  height: 450px;
+  width: 50%;
+  text-align: center;
+}
+
