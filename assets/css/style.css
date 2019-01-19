@@ -83,9 +83,10 @@ img {
 form {
     margin: 5px;
     font-family: Roboto Mono;
-    font-size: 11px;
+    font-size: 13px;
     letter-spacing: 3px; 
-    color: blue;
+    color: white;
+    text-decoration: bold;
 }
 
 .container, .container-fluid {
